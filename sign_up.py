@@ -15,7 +15,7 @@ last_name = driver.find_element(By.XPATH,value='/html/body/form/input[2]')
 last_name.send_keys("Dhami")
 
 email_id = driver.find_element(By.XPATH,value='/html/body/form/input[3]')
-email_id.send_keys("nitika@yahoo.com")
+email_id.send_keys("*******@yahoo.com")
 
 sign_up = driver.find_element(By.XPATH,value="/html/body/form/button")
 sign_up.send_keys(Keys.ENTER)
